@@ -5,3 +5,4 @@ pip install Cython
 pip install nemo_toolkit[all]
 conda install -c conda-forge jupyterlab #optional
 sudo apt-get install sox libsndfile1 ffmpeg
+pip install text-unidecode
