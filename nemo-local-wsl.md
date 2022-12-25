@@ -12,5 +12,7 @@ sudo apt-get install sox libsndfile1 ffmpeg
 
 pip install text-unidecode
 
-pip install torchaudio>=0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch --force-reinstall
+
+mkdir configs
 
